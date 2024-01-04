@@ -274,7 +274,8 @@ def analogy(a, b, c, word_to_id, id_to_word, word_matrix, top=5, answer=None):
     a_vec, b_vec, c_vec = word_matrix[word_to_id[a]], word_matrix[word_to_id[b]], word_matrix[word_to_id[c]]
     query_vec = b_vec - a_vec + c_vec
     query_vec = normalize(query_vec)
-
+    print(f"word_matrix: {word_matrix.shape}")
+    print(f"query_vec: {query_vec.shape}")
     similarity = np.dot(word_matrix, query_vec)
 
     if answer is not None:
