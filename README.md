@@ -1,1 +1,5 @@
-# Deep-Learning-from-Scratch
+# Deep Learning from Scratch
+밑바닥부터 시작하는 딥러닝 1,2권을 각 챕터별로 정리한 repository입니다.
+practice.ipynb 파일은 보고 베끼지 않으면서 코드 구현이 가능한지 연습한 파일입니다.
+
+'##'이 붙은 주석은 교재에 없는 내용을 제가 임의로 작성한 주석이며, 2권 후반부에는 모델의 입출력 차원을 중심으로 기록했습니다.
